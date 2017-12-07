@@ -10,18 +10,18 @@
                  .state('landing', {
                      url: '/',
                      controller: 'LandingCtrl as landing',
-                     templateUrl: '/Users/nahomegudeta/bloc-jams/bloc/bloc/bloc-jams-angularjs/app/templates/landing.html'
+                     templateUrl: 'templates/landing.html'
                  })
                  .state('album', {
                      url: '/album',
                      controller: 'AlbumCtrl as album',
-                     templateUrl: '/Users/nahomegudeta/bloc-jams/bloc/bloc/bloc-jams-angularjs/app/templates/album.html'
+                     templateUrl: 'templates/album.html'
          })
 
                  .state('collection', {
                      url: '/collection',
                      controller: 'CollectionCtrl as collection',
-                     templateUrl: '/Users/nahomegudeta/bloc-jams/bloc/bloc/bloc-jams-angularjs/app/templates/collection.html'
+                     templateUrl: 'templates/collection.html'
  });
 
      }
